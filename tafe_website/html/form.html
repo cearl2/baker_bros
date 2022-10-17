@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Tafe</title>
+</head>
+
+<body>
+    <section>
+        <div class="sticky-wrap">
+            <div class="header-wrapper">
+                <div class="logo-header">
+                    <h1 class="logo-text">BB</h1>
+                </div>
+                <div class="header-wrap">
+                    <h1 class="header-text"><i>Baker Bros</i></h1>
+                </div>
+            </div>
+            <div class="nav-wrapper">
+                <div class="nav-link home">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </div>
+                <div class="nav-link gallery">
+                    <a href="html\gallery.html">
+                        Gallery
+                    </a>
+                </div>
+                <div class="contact nav-link">
+                    <a href="html\form.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------end navbar------------------->
+
+    <!--------------start contact------------------->
+
+    <section class="form1">
+
+        <div class="form-wrapper">
+            <h2>Login</h2>
+
+            <form class="login-form">
+
+                <label for="fname">Username:</label>
+                <input type="text" id="fname" name="login-form" placeholder=""><br>
+
+                <label for="fmail">Password:</label>
+                <input type="password" id="password" name="login-form" placeholder=""><br>
+
+                <input type="submit" name="login-form">
+            </form>
+        </div>
+        </div>
+        <div class="form-wrapper">
+
+            <form class="form">
+
+                <label for="fname">contact name:</label>
+                <input type="text" id="fname" name="contact-form" placeholder="Jane Doe"><br>
+
+                <label for="fmail">Email:</label>
+                <input type="email" id="email" name="contact-form" placeholder="Jane.doe@gmailcom"><br>
+
+
+                <label for="ftel">Phone:</label>
+                <input type="tel" id="ftel" name="contact-form" placeholder="0412345678"><br>
+
+                <label for="fadress1">Adress line 1:</label>
+                <input type="text" id="fadress1" name="contact-form" placeholder="street"><br>
+
+                <label for="fadress2">Adress line 2:</label>
+                <input type="text" id="fadress2" name="contact-form" placeholder="suburb"><br>
+
+
+                <label for="fpostcode">Post Code:</label>
+                <input type="text" id="fpostcode" name="contact-form" placeholder="postcode"><br>
+
+
+                <label for="fcontact-type"> prefered contact: </label>
+                <input type="radio" id="email" name="type">Email</input>
+                <input type="radio" id="phone" name="type">Phone</input>
+                <input type="radio" id="post" name="type">Post</input>
+
+
+
+
+                <label class="terms" for="terms">Agree to <a href="">terms</a></label><a href=""></a>
+                <input type="radio" id="terms" name="contact-form" value="agree"><br>
+
+                <input type="submit" name="contact-form">
+            </form>
+
+        </div>
+        <div class="form-wrapper">
+            <h1>Contact Us</h1>
+            
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>Tobias</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>baker.bros@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Location:</td>
+                <td>12 Road Rd</td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td>1800 123 456</td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="form-wrapper">
+            <h1>Order Now!</h1>
+            <form action="#">
+                <label for="Order-goods">Baked-Goods</label>
+                <select name="order" id="order-type">
+                    <option value="bread">Bread</option>
+                    <option value="cake">Cake</option>
+                    <option value="mud-cake">Mud Cake</option>
+                    <option value="apple-pie">Apple Pie</option>
+                    <option value="custard-tart">Custart Tart</option>
+                    <option value="cream-donut">Cream Donut</option>
+                </select><br>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="order-quan">
+
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+
+    </section>
+
+    <!--------------end contact------------------->
+
+
+
+    <div class="footer-wrapper text-center">
+        <a></a><i class="bi bi-facebook"></i></a>
+        <a></a><i class="bi bi-instagram"></i></a>
+        <a></a><i class="bi bi-geo-alt"></i></a>
+
+        <div class="copywrite">
+            copywrite&copy; 2022
+        </div>
+    </div>
+</body>
